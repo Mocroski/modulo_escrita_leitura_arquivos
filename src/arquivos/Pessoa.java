@@ -29,4 +29,13 @@ public class Pessoa {
     public void setIdade(String idade) {
         this.idade = idade;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", idade='" + idade + '\'' +
+                '}';
+    }
 }
