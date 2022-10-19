@@ -31,7 +31,7 @@ public class Arquivos {
         pessoas.add(pessoa3);
 
 
-        File arquivo = new File("C:\\Users\\Luca Moc\\IdeaProjects\\arquivos\\src\\arquivos\\arquivo.txt");
+        File arquivo = new File("C:\\Users\\Luca Moc\\IdeaProjects\\arquivos\\src\\arquivos\\arquivo.csv");
 
         if (!arquivo.exists()) {
             arquivo.createNewFile();
